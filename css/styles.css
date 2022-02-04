@@ -45,6 +45,7 @@ body {
 /* header styles */
 
 .logo {
+  display: block;
   color: var(--accent-color);
 
   font-family: Raleway, sans-serif;
@@ -62,7 +63,26 @@ body {
   color: var(--primery-white-color);
 }
 
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .site-nav .link {
+  display: block;
   color: var(--title-text-color);
 
   font-weight: 500;
@@ -79,6 +99,14 @@ body {
 
 .site-nav .link.current {
   color: var(--accent-color);
+}
+
+.contacts-nav {
+  display: flex;
+}
+
+.contacts-nav .item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .contacts-nav .link {
@@ -149,6 +177,14 @@ body {
   margin-bottom: 0px;
 }
 
+.features {
+  display: flex;
+}
+
+.features > .item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .features .title {
   color: var(--title-text-color);
 
@@ -170,6 +206,18 @@ body {
 
 .activity .section-title {
   margin-bottom: 50px;
+}
+
+.acts {
+  display: flex;
+}
+
+.acts .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.acts .image {
+  display: block;
 }
 
 .team {
@@ -246,9 +294,17 @@ address {
 /* Portfolio styles */
 
 .buttons {
+  display: flex;
   margin-bottom: 34px;
+  margin-left: auto;
 }
+
+.buttons .item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .btn-secondary {
+  display: block;
   background-color: var(--secondary-bg-color);
   color: var(--title-text-color);
 
