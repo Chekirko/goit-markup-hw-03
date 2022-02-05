@@ -15,21 +15,21 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="container">
-            <nav>
-                <a href="./portfolio.html" class="logo">Web<span class="fst">Studio</span></a>
+            <nav class="nav">
+                <a href="./" class="logo">Web<span class="fst">Studio</span></a>
 
                 <ul class="site-nav list">
-                    <li class="item"><a href="./index.html" class="link">Студия</a></li>
-                    <li class="item"><a href="./portfolio.html" class="link current">Портфолио</a></li>
+                    <li class="item"><a href="./" class="link">Студия</a></li>
+                    <li class="item"><a href="./portfolio.html" class="link  current">Портфолио</a></li>
                     <li class="item"><a href="" class="link">Контакты</a></li>
                 </ul>
             </nav>
 
             <ul class="contacts-nav list">
-                <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+                <li class="item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+                <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
             </ul>
         </div>
     </header>
@@ -38,7 +38,7 @@
         <!--Секция Проекты-->
         <section class="section">
             <div class="container">
-                <h1 class="section-title invisible">Projects</h1>
+                <h1 class="section-title visually-hidden">Projects</h1>
 
                 <ul class="buttons list">
                     <li class="item"><button type="button" class="btn btn-secondary">Все</button></li>
@@ -49,50 +49,77 @@
                 </ul>
 
                 <ul class="projects list">
-                    <li>
-                        <img src="./images/img11.jpg" alt="Дисплей ноутбука" width="370">
-                        <h2 class="title">Технокряк</h2>
-                        <p class="text">Веб-сайт</p>
+                    <li class="item">
+                        <div class="card-thumb"><img class="image" src="./images/img11.jpg" alt="Дисплей ноутбука"
+                                width="370"></div>
+                        <div class="card-content">
+                            <h2 class="title">Технокряк</h2>
+                            <p class="text">Веб-сайт</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="./images/img12.jpg" alt="Баскетболисты с мячем" width="370">
-                        <h2 lang="en" class="title">Постер New Orlean vs Golden Star</h2>
-                        <p class="text">Дизайн</p>
+                    <li class="item">
+                        <div class="card-thumb"><img class="image" src="./images/img12.jpg" alt="Баскетболисты с мячем"
+                                width="370"></div>
+                        <div class="card-content">
+                            <h2 lang="en" class="title">Постер New Orlean vs Golden Star</h2>
+                            <p class="text">Дизайн</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="./images/img13.jpg" alt="Логотип ресторана" width="370">
-                        <h2 lang="en" class="title">Ресторан Seafood</h2>
-                        <p class="text">Приложение</p>
+                    <li class="item">
+                        <div class="card-thumb"><img class="image" src="./images/img13.jpg" alt="Логотип ресторана"
+                                width="370"></div>
+                        <div class="card-content">
+                            <h2 lang="en" class="title">Ресторан Seafood</h2>
+                            <p class="text">Приложение</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="./images/img14.jpg" alt="Наушники" width="370">
-                        <h2 lang="en" class="title">Проект Prime</h2>
-                        <p class="text">Маркетинг</p>
+                    <li class="item">
+                        <div class="card-thumb"><img class="image" src="./images/img14.jpg" alt="Наушники" width="370">
+                        </div>
+                        <div class="card-content">
+                            <h2 lang="en" class="title">Проект Prime</h2>
+                            <p class="text">Маркетинг</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="./images/img15.jpg" alt="Две коробки" width="370">
-                        <h2 lang="en" class="title">Проект Boxes</h2>
-                        <p class="text">Приложение</p>
+                    <li class="item">
+                        <div class="card-thumb"><img class="image" src="./images/img15.jpg" alt="Две коробки"
+                                width="370"></div>
+                        <div class="card-content">
+                            <h2 lang="en" class="title">Проект Boxes</h2>
+                            <p class="text">Приложение</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="./images/img16.jpg" alt="Дисплей" width="370">
-                        <h2 lang="en" class="title">Inspiration has no Borders</h2>
-                        <p class="text">Веб-сайт</p>
+                    <li class="item">
+                        <div class="card-thumb"><img class="image" src="./images/img16.jpg" alt="Дисплей" width="370">
+                        </div>
+                        <div class="card-content">
+                            <h2 lang="en" class="title">Inspiration has no Borders</h2>
+                            <p class="text">Веб-сайт</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="./images/img17.jpg" alt="Раскрытый журнал" width="370">
-                        <h2 lang="en" class="title">Издание Limited Edition</h2>
-                        <p class="text">Дизайн</p>
+                    <li class="item">
+                        <div class="card-thumb"><img class="image" src="./images/img17.jpg" alt="Раскрытый журнал"
+                                width="370"></div>
+                        <div class="card-content">
+                            <h2 lang="en" class="title">Издание Limited Edition</h2>
+                            <p class="text">Дизайн</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="./images/img18.jpg" alt="Бирочка с надписью" width="370">
-                        <h2 lang="en" class="title">Проект LAB</h2>
-                        <p class="text">Маркетинг</p>
+                    <li class="item">
+                        <div class="card-thumb"><img class="image" src="./images/img18.jpg" alt="Бирочка с надписью"
+                                width="370"></div>
+                        <div class="card-content">
+                            <h2 lang="en" class="title">Проект LAB</h2>
+                            <p class="text">Маркетинг</p>
+                        </div>
                     </li>
-                    <li>
-                        <img src="./images/img19.jpg" alt="Руки на клавиатуре ноутбука" width="370">
-                        <h2 lang="en" class="title">Growing Business</h2>
-                        <p class="text">Приложение</p>
+                    <li class="item">
+                        <div class="card-thumb"><img class="image" src="./images/img19.jpg"
+                                alt="Руки на клавиатуре ноутбука" width="370"></div>
+                        <div class="card-content">
+                            <h2 lang="en" class="title">Growing Business</h2>
+                            <p class="text">Приложение</p>
+                        </div>
                     </li>
                 </ul>
             </div>
