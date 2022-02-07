@@ -50,7 +50,8 @@ body {
   list-style: none;
 }
 
-.image {
+img {
+  height: auto;
   display: block;
   max-width: 100%;
 }
@@ -65,7 +66,6 @@ body {
 
 .logo {
   display: block;
-  margin-right: 93px;
   color: var(--accent-color);
 
   font-family: Raleway, sans-serif;
@@ -86,7 +86,7 @@ body {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .header .container {
@@ -97,6 +97,10 @@ body {
 .nav {
   display: flex;
   align-items: center;
+}
+
+.nav .logo {
+  margin-right: 93px;
 }
 
 .site-nav {
@@ -167,12 +171,9 @@ body {
 }
 
 .hero {
+  padding: 200px 0px;
   background-color: var(--third-bg-color);
   text-align: center;
-}
-
-.hero-content {
-  padding: 200px 452px;
 }
 
 .hero-title {
@@ -261,12 +262,11 @@ body {
   margin-right: var(--card-set-gap);
 }
 
-.people .card-thumb {
-  margin-bottom: 30px;
+.people .card-content {
+  padding: 30px 0px;
 }
 
 .people .title {
-  padding-left: auto;
   color: var(--title-text-color);
 
   font-weight: 500;
@@ -278,7 +278,6 @@ body {
 }
 
 .people .text {
-  padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -326,7 +325,7 @@ address {
   color: var(--accent-color);
 }
 
-.contacts > li:not(:last-child) {
+.contacts .item:not(:last-child) {
   margin-bottom: 10px;
 }
 
